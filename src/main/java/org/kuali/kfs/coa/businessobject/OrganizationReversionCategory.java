@@ -20,6 +20,7 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class OrganizationReversionCategory {
@@ -28,6 +29,10 @@ public class OrganizationReversionCategory {
     private String organizationReversionCategoryName;
     private String organizationReversionSortCode;
     private boolean active;
+
+    public OrganizationReversionCategory() {
+        LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
 
     /**
      * Gets the organizationReversionCategoryCode attribute.
