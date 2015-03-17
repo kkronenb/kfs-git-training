@@ -22,6 +22,9 @@ import java.util.LinkedHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * But woe unto you, fellow coder.
+ */
 public class Chart {
     private static Logger LOG = Logger.getLogger(Chart.class.getName());
 
