@@ -23,6 +23,9 @@ import java.util.LinkedHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * But woe unto you, fellow coder.
+ */
 public class OrganizationReversionCategory {
     private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());
     private String organizationReversionCategoryCode;
