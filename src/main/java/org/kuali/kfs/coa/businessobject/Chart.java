@@ -19,8 +19,11 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Logger;
 
 public class Chart {
+    private static Logger LOG = Logger.getLogger(Chart.class.getName());
+
     protected String finChartOfAccountDescription;
     protected boolean active;
     protected String finCoaManagerPrincipalId;
