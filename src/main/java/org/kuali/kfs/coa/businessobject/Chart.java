@@ -19,6 +19,7 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Chart {
@@ -53,6 +54,13 @@ public class Chart {
     protected ObjectCode icrExpenseFinancialObject;
     protected ObjectCode fundBalanceObject;
     protected Chart reportsToChartOfAccounts;
+
+    /**
+     * no-arg constructor
+     */
+    public Chart() {
+        LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
 
     /**
      * Gets the finChartOfAccountDescription attribute.
